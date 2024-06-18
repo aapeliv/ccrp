@@ -1,4 +1,7 @@
+build
 numpy
 Pillow
 pyusb
 ruff
+setuptools
+twine
