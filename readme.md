@@ -12,4 +12,4 @@ You can see sample usage in `demo.py`, just run it with `python3 demo.py` or how
 
 ## Images
 
-The printer has a system for installing bitmaps and printing them, this library implements that. You need the images in black and white binary format.
+The printer has a system for installing bitmaps and printing them, this library implements that. You need the images in black and white binary format, put them in `images/` and run `generate.py myimage.png`. It will generate `myimage.py` with three variables: `width`, `height`, and `bits`, you then need to call `print_bits_bitmap(bits, width, height)` to print it out.
